@@ -24,11 +24,14 @@
   border-bottom: 1px solid var(--yellow);
   font-size: 1.8rem;
   background-color: transparent;
+  font-family: var(--font-family);
 }
 .text:focus {
-  border-bottom: 1px solid var(--yellow-hard);
-  filter: drop-shadow(0 0 5px white);
+  outline: 1px solid var(--yellow-hard);
+  /* filter: drop-shadow(0 0 5px white); */
 }
+
+
 
 .textarea {
   color: var(--font-color);
@@ -44,6 +47,7 @@
   margin: 1em auto;
   outline: none;
   resize: none;
+  font-family: var(--font-family);
 }
 
 .textarea::-webkit-scrollbar {
@@ -56,13 +60,9 @@
 }
 
 .textarea::-webkit-scrollbar-thumb {
-  background-color: var(--gray-hard);
+  background-color: var(--yellow);
   padding: 0 1px;
   border-radius: 5px;
-}
-
-.submit {
-
 }
 
 .icon {

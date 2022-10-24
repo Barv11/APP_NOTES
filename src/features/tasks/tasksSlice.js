@@ -13,7 +13,7 @@ const data = [
   {
     id: "1",
     title: "Título",
-    description: "Descripción",
+    description: "Tap to edit",
     completed: false,
     date: now
   },
