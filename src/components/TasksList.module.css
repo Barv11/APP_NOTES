@@ -1,0 +1,39 @@
+:root {
+  --font-color: #fff0c9;
+  --gray: #3b3b3b;
+  --gray-light: #8d8d8d;
+  --gray-hard: #1f1f1f;
+  --yellow: #babd26;
+  --font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    position: relative;
+}
+
+.tasks {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.icon {
+    text-decoration: none;
+}
+
+.icon span {
+    position: fixed;
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--yellow);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    color: #ffffff;
+    right: 20px;
+    bottom: 20px;
+    filter: drop-shadow(0 0 5px #ffffff);
+}

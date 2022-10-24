@@ -1,0 +1,75 @@
+.card {
+  margin: 20px;
+  font-family: var(--font-family);
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.title {
+  margin: 0 0.25em;
+  font-size: 1.8rem;
+}
+
+.buttonDelete {
+  margin: 0 0.5em;
+  background-color: transparent;
+  color: var(--yellow);
+  border: none;
+  font-family: var(--font-family);
+  border-radius: 10px;
+  padding: 0 .4em;
+  height: 2em;
+  cursor: pointer;
+}
+
+.buttonDelete:hover {
+    outline: 1px solid var(--yellow);
+
+}
+
+.date {
+  margin: 0 0.5em;
+  font-size: 0.9rem;
+  color: var(--gray-light);
+}
+
+.buttonEdit {
+  color: var(--font-color);
+  text-decoration: none;
+}
+
+.cardDescrip {
+  width: 250px;
+  height: 400px;
+  background-color: var(--gray);
+  border-radius: 20px 0 0 20px;
+  padding: 0.9em;
+  margin: 1em 0;
+  overflow-y: scroll;
+
+}
+
+.cardDescrip::-webkit-scrollbar {
+  width: 8px;
+}
+
+.cardDescrip::-webkit-scrollbar-track {
+  background-color: var(--gray);
+  border-radius: 0;
+}
+
+.cardDescrip::-webkit-scrollbar-thumb {
+  background-color: var(--yellow);
+  padding: 0 1px;
+  border-radius: 5px;
+}
+
+.paragr {
+  font-size: 1rem;
+}
